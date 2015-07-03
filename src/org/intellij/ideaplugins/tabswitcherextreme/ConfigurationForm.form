@@ -39,17 +39,8 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <text value="Regexes to match full filenames.&#10;&#10;Examples:&#10;&#10;.*\.java&#10;.*\.png|.*\.jpg|.*\.gif"/>
-        </properties>
-      </component>
-      <component id="452eb" class="javax.swing.JTextPane" binding="mTitlesForColumnsExamplesTextPane" default-binding="true">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Titles for columns.&#10;&#10;Examples:  &#10;&#10;Java &#10;Bitmaps"/>
         </properties>
       </component>
       <component id="8f159" class="javax.swing.JTextPane" binding="mRegexesToRemoveFromTextPane" default-binding="true">
@@ -59,6 +50,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <text value="Regexes to remove from display.&#10;&#10;Examples:&#10;&#10;.java&#10;.png"/>
         </properties>
       </component>
@@ -67,6 +59,17 @@
           <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
+      </component>
+      <component id="452eb" class="javax.swing.JTextPane" binding="mTitlesForColumnsExamplesTextPane" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Titles for columns.&#10;&#10;Examples:  &#10;&#10;Java &#10;Bitmaps"/>
+        </properties>
       </component>
     </children>
   </grid>
