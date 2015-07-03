@@ -8,4 +8,7 @@ public class ConfigurationForm {
 	public JTextArea textArea2;
 	public JPanel holder;
 	public JTextArea textArea3;
+	private JTextPane mRegexesToMatchFullTextPane;
+	private JTextPane mTitlesForColumnsExamplesTextPane;
+	private JTextPane mRegexesToRemoveFromTextPane;
 }
